@@ -38,7 +38,7 @@ eureka:
   #    hostname: zy
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://139.155.234.6:8761/eureka/
 
 
 management:
