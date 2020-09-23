@@ -7,6 +7,9 @@ spring:
     admin:
       client:
         url: http://localhost:8084
+  jackson:
+    time-zone: GMT+8  #市区设置
+
   datasource:
     url: jdbc:mysql://139.155.234.6:3306/his?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
@@ -20,8 +23,6 @@ spring:
       stat-view-servlet: #访问监控网页的登录用户名和密码
         login-username: druid
         login-password: druid
-  jackson:
-    time-zone: GMT+8  #市区设置
 
 server:
   port: 10022  #10011
